@@ -2,7 +2,7 @@
 
 STCHLab (Solar Thermochemical Hydrogen in silico Laboratory) is a Python package for
 the analysis of two-step non-stoichiometric solar thermochemical redox cycles for
-hydrogen production.
+hydrogen production. 
 
 The library provides a unified, material-agnostic framework that spans equilibrium
 thermodynamics, reactor-level models, and system-level energy balances for both
@@ -12,7 +12,10 @@ operation through electrical bias during reduction and/or re-oxidation.
 Materials are represented as self-contained modules with a minimal interface, so new
 redox-active materials can be incorporated without modifying the core library.
 Reusable code lives in the `stchlab/` package, while runnable examples stay in
-`examples/`.
+`examples/`. 
+
+The full implementation of stchlab/core.py will be released in this repository once 
+the associated research article is published.
 
 ## Nomenclature
 
