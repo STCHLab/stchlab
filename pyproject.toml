@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stchlab"
+version = "0.1.0"
+description = "Solar thermochemical hydrogen in silico laboratory."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "CoolProp",
+    "matplotlib",
+    "numpy",
+    "scipy",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["stchlab", "stchlab.*"]
+
+[tool.setuptools.package-data]
+stchlab = ["*.db"]
